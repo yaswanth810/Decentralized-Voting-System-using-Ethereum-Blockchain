@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "bundle-js": "browserify ./src/js/app.js -o ./src/dist/app.bundle.js",
+  "check-env": "node check-create-env.js"
   },
   "author": "",
   "license": "ISC",
